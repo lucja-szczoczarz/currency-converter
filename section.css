@@ -1,0 +1,39 @@
+.section {
+    font-size: 18px;
+    padding: 5px;
+    margin: auto;
+}
+
+.section__header {
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+.section__field {
+    border: 1px solid rgb(97, 92, 92);
+    padding: 5px;
+    width: 100%;
+}
+
+.section__button {
+    padding: 10px;
+    background-color: rgb(56, 132, 84);
+    color: aliceblue;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.section__button:hover {
+    background-color: rgb(10, 106, 16);
+}
+
+.section__legend {
+    padding: 10px;
+    background-color: rgb(56, 132, 84);
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.js-formElement{
+    padding-top: 30px;
+}
