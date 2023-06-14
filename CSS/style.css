@@ -13,5 +13,5 @@ html {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     line-height: 1.5;
-    background-color: rgb(253, 253, 253);
+    background: center / cover no-repeat url("../images/Landspace.png");
 }
