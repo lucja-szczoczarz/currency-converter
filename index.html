@@ -14,11 +14,11 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         >
-        <link href="CSS/style.css" rel="stylesheet">
-        <link href="CSS/header.css" rel="stylesheet">
-        <link href="CSS/section.css" rel="stylesheet">
-        <link href="CSS/table.css" rel="stylesheet">
-        <script defer src="script.js"></script>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/section.css" rel="stylesheet">
+        <link href="css/table.css" rel="stylesheet">
+        <script defer src="js/script.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,700&display=swap" rel="stylesheet">
     </head>
@@ -59,7 +59,7 @@
                     <p>
                         <label>
                             <span>Wybierz walutę:</span>
-                            <select class="section__field js-field--currency" name="currency">
+                            <select class="section__field js-currency" name="currency">
                                 <option>EUR</option>
                                 <option>CHF</option>
                                 <option>USD</option>
@@ -71,7 +71,7 @@
                         <label>
                             <span>Wpisz kwotę:</span>
                             <input
-                                class="section__field js-field--amount"
+                                class="section__field js-amount"
                                 type="number"
                                 step="0.01"
                                 min="0.01"
